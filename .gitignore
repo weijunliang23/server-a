@@ -1,21 +1,16 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-Dockerfile
-node_modules
+logs/
+npm-debug.log
+yarn-error.log
+node_modules/
+*-lock.json
+*-lock.yaml
+yarn.lock
+coverage/
+.idea/
+run/
 .DS_Store
-dist
-*.local
-
-# Editor directories and files
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+*.sw*
+*.un~
+typings/
+.nyc_output/
+Dockerfile
